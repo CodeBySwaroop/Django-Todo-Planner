@@ -19,35 +19,30 @@ To run this Django project locally, follow these steps:
 
 1. **Clone the Repository**: 
    ```
-   git clone https://github.com/your_username/django-todo-list.git
+   git clone https://github.com/swameher/Django-Todo-Planner.git
    ```
 
 2. **Navigate to the Project Directory**:
    ```
-   cd django-todo-list
+   cd Django-Todo-Planner
    ```
 
-3. **Install Dependencies**:
+3. **Apply Database Migrations**:
    ```
-   pip install -r requirements.txt
-   ```
-
-4. **Apply Database Migrations**:
-   ```
-   python manage.py migrate
+   python3 manage.py migrate
    ```
 
-5. **Create a Superuser** (Optional, for admin access):
+4. **Create a Superuser** (Optional, for admin access):
    ```
-   python manage.py createsuperuser
-   ```
-
-6. **Run the Development Server**:
-   ```
-   python manage.py runserver
+   python3 manage.py createsuperuser
    ```
 
-7. **Access the Application**:
+5. **Run the Development Server**:
+   ```
+   python3 manage.py runserver
+   ```
+
+6. **Access the Application**:
    Visit `http://127.0.0.1:8000/` in your web browser to access the application.
 
 ## Usage
